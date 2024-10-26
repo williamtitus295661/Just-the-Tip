@@ -9,37 +9,18 @@ body {
     margin-top: 120px;
     padding: 0 2em;
     background-image:url("hot-doggy.jpg");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    text-align: center;
-    line-height: 1;
-    width: auto;
-    text-shadow:
-    -2px -1px 0 darkred,  
-    1px -1px 0 rgb(40, 2, 2),
-    -2px  1px 0 rgb(179, 27, 27),
-    1px  1px 0 rgb(245, 6, 6);
-    margin-bottom: 25px;
-    margin-top: 45px;
-    font-family: 'Creepster', cursive;
-    font-size:30px;
-    color:red
-    hidden;
+    background-position: center;
     background-size:contain;
     background-repeat: no-repeat;
-    
   
    
 }
 header {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid black;
   
 }
 header h1 {
-    color: green
+    color: black;
 }
 main {
     margin-bottom: 1em;
@@ -49,7 +30,7 @@ h1 {
     margin: .5em 0;
 }
 h2 {
-   
+    color:blueviolet;
     font-size: 120%;
     margin: .25em 0 .5em;
 }
@@ -63,29 +44,20 @@ h1, h2 {
     text-align: center;
 }
 ul {
- 
     margin: 0 0 .5em 0;
     padding: 0 0 0 2.5em;
 
 }
 p {
-    text-align: center;
-    line-height: 1;
-    width: auto;
-    text-shadow:
-    -2px -1px 0 darkred,  
-    1px -1px 0 rgb(40, 2, 2),
-    -2px  1px 0 rgb(179, 27, 27),
-    1px  1px 0 rgb(245, 6, 6);
-    margin-bottom: 25px;
-    margin-top: 45px;
-    font-family: 'Creepster', cursive;
-    font-size:30px;
-    color:red
-    hidden;
+    font-weight: bolder;
+    color:red;
+    text-shadow: 
+    -1px -1px 0 rgba(252, 247, 247, 0.96),  
+    1px -1px 0 rgb(253, 252, 252),
+    -1px  1px 0 rgb(254, 253, 253),
+    1px  1px 0 rgb(250, 247, 247);
 }
 li {
-  color: #45a049;
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -98,21 +70,24 @@ a:hover {
     color: rgb(208, 133, 4);
 }
 p {
-    color:#45a049;
+    color:white;
+   
+    text-shadow: 
+    -1px -1px 0 rgba(12, 8, 8, 0.96),  
+    2px -1px 0 rgb(8, 1, 20),
+    -1px  1px 0 rgb(53, 146, 190),
+    2px  1px 0 rgb(14, 1, 1);
     margin: 0;
     padding-bottom: .5em;
 }
 form {
-  color: #943939;
-   margin: 0;
+    margin: 0;
     padding: 0;
 }
 input[text], select {
     width: 15em;
-  
 }
 label {
-   
     width: 5em;
     float: left;
     margin-right: 1em;
@@ -120,7 +95,6 @@ label {
     text-align: right;
 }
 br {
- 
     clear: left;
 }
 button{
@@ -151,16 +125,56 @@ button:disabled {
     color: #666666; /* Dark gray text */
     cursor: not-allowed; /* Not-allowed cursor */
 }
-p {
-    color:white;
-   
-    text-shadow: 
-    -1px -1px 0 rgba(12, 8, 8, 0.96),  
-    2px -1px 0 rgb(8, 1, 20),
-    -1px  1px 0 rgb(53, 146, 190),
-    2px  1px 0 rgb(14, 1, 1);
-    margin: 0;
-    padding-bottom: .5em;
+input {
+    background-color: #bde715; 
+    color:blue;
+        padding: 15px 32px; /* Padding */
+        text-align: center; /* Centered text */
+        text-decoration: none; /* No underline */
+        display: inline-block; /* Inline-block display */
+        font-size: 16px; /* Font size */
+        margin: 4px 2px; /* Margin */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius: 12px; 
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s, box-shadow 0.3s;
+  
+}
+
+label{
+    background-color: #bde715; 
+        color:blue;
+        padding: 15px 32px; /* Padding */
+        text-align: center; /* Centered text */
+        text-decoration: none; /* No underline */
+        display: inline-block; /* Inline-block display */
+        font-size: 16px; /* Font size */
+        margin: 4px 2px; /* Margin */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius: 12px; 
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s, box-shadow 0.3s;
+  
+}
+option{
+        background-color: #bde715; 
+        color:blue;
+        padding: 15px 32px; /* Padding */
+        text-align: center; /* Centered text */
+        text-decoration: none; /* No underline */
+        display: inline-block; /* Inline-block display */
+        font-size: 16px; /* Font size */
+        margin: 4px 2px; /* Margin */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius: 12px; 
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s, box-shadow 0.3s;
+  
+}
+
+option:hover{
+    background-color: #45a049; /* Darker green on hover */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 
