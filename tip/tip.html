@@ -42,9 +42,9 @@
             $total = $bill + $tip;
 
             echo "<h2>Results:</h2>";
-            echo "<p>Bill Amount: $" . number_format($bill, 2) . "<br>";
+            echo "Bill Amount: $" . number_format($bill, 2) . "<br>";
             echo "Tip: $" . number_format($tip, 2) . "<br>";
-            echo "Total: $" . number_format($total, 2) .  "</p>";
+            echo "Total: $" . number_format($total, 2) .  "";
         } else {
             echo "<p>Please enter a valid bill amount.</p>";
         }
