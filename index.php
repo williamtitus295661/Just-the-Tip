@@ -27,11 +27,11 @@
 </br>
 
     
-    <form action="tip/tip.html" method="_POST">
+    <form action="tip/tip.php" method="_POST">
         <button type="submit">Tip Calculator</button>
     </form>
 <br></br>
-    <form action= "task/index.html" method="_POST">
+    <form action= "task/index.php" method="_POST">
         <button type="submit">To Do List</button>
     </form>
 </body>
