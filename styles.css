@@ -1,0 +1,131 @@
+body{
+    
+    text-align: center;
+    line-height: 1;
+   
+/* Different borders for each side */
+    position: relative;
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+  
+    
+   
+   
+    text-align: center;
+    background-color:burlywood;
+    background-size: 275%;
+    background-repeat: no-repeat;
+   
+ 
+  
+   
+    }
+    
+    img {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        width: 100%; /* Adjust the percentage as needed */
+        height: auto; /* Maintains the aspect ratio */
+    }
+
+    footer {
+        
+   margin-top: 50px;
+  
+   position: bottom;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+
+   color: red;
+  
+   text-align: center;
+   padding: 5px;
+      }
+  
+      
+   
+
+  
+   
+
+
+
+    
+    
+            
+ 
+          
+    
+ 
+
+
+header {
+
+color:lightblue;
+
+    
+    
+ text-shadow: 
+-1px -1px 0 black,  
+2px -1px 0 black,
+-1px  1px 0 black,
+2px  1px 0 black; /* Four shadows to create an outline */
+margin-bottom: 80px;
+margin-top: 80px; 
+
+
+text-align: center;
+padding-bottom: 10px;
+padding-top: 30px;
+
+
+}
+
+h1 {
+
+font-size: 45pt;
+color:red
+hidden;
+
+
+text-shadow: 
+-1px -1px 0 black,  
+1px -1px 0 black,
+-1px  1px 0 black,
+1px  1px 0 black; /* Four shadows to create an outline */
+margin-bottom: 80px;
+margin-top: 80px;
+text-align: center;
+
+}
+
+
+ul, li {
+text-align: left;
+color:blue;
+font: size 20px;
+
+
+text-shadow: 
+-1px -1px 0 rgb(178, 168, 237),  
+1px -1px 0 rgb(180, 215, 238),
+-1px  1px 0 rgb(186, 150, 236),
+1px  1px 0 rgb(203, 193, 227); 
+
+
+
+}
+p{
+    color:lightblue;
+  
+   
+ 
+  
+    text-shadow: 
+        -1px -1px 0 rgb(15, 0, 0),  
+         1px -1px 0 rgb(13, 13, 12),
+        -1px  1px 0 rgb(20, 1, 1),
+         1px  1px 0 rgb(10, 4, 0);
+   }
