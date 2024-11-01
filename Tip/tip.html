@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color:lightblue
+            hidden;
+            text-shadow: 
+           -1px -1px 0 rgb(178, 168, 237),  
+           1px -1px 0 rgb(180, 215, 238),
+           -1px  1px 0 rgb(186, 150, 236),
+           1px  1px 0 rgb(203, 193, 227); 
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        h2{
+            color:brown;
+            text-shadow: 
+           -1px -1px 0 rgb(178, 168, 237),  
+           1px -1px 0 rgb(180, 215, 238),
+           -1px  1px 0 rgb(186, 150, 236),
+           1px  1px 0 rgb(203, 193, 227); 
+
+        }
+        label{
+            color:brown;
+            text-shadow: 
+           -1px -1px 0 rgb(178, 168, 237),  
+           1px -1px 0 rgb(180, 215, 238),
+           -1px  1px 0 rgb(186, 150, 236),
+           1px  1px 0 rgb(203, 193, 227); 
+
+
+        }
+        p{
+            color:brown;
+            text-shadow: 
+           -1px -1px 0 rgb(178, 168, 237),  
+           1px -1px 0 rgb(180, 215, 238),
+           -1px  1px 0 rgb(186, 150, 236),
+           1px  1px 0 rgb(203, 193, 227); 
+
+        }
+        ul, li {
+                text-align: left;
+                color:blue;
+                font: size 20px;
+
+
+                text-shadow: 
+                -1px -1px 0 rgb(178, 168, 237),  
+                1px -1px 0 rgb(180, 215, 238),
+                -1px  1px 0 rgb(186, 150, 236),
+                1px  1px 0 rgb(203, 193, 227); 
+
+
+
+}
+
+input{
+    background-color: burlywood;
+    color:blue;
+                font: size 20px;
+
+
+                text-shadow: 
+                -1px -1px 0 rgb(178, 168, 237),  
+                1px -1px 0 rgb(180, 215, 238),
+                -1px  1px 0 rgb(186, 150, 236),
+                1px  1px 0 rgb(203, 193, 227); 
+
+}
+option{
+    
+    background-color: burlywood;
+    color:blue;
+                font: size 20px;
+
+
+                text-shadow: 
+                -1px -1px 0 rgb(178, 168, 237),  
+                1px -1px 0 rgb(180, 215, 238),
+                -1px  1px 0 rgb(186, 150, 236),
+                1px  1px 0 rgb(203, 193, 227); 
+
+
+}
+select{
+                background-color: burlywood;
+                color:blue;
+                font: size 20px;
+
+
+                text-shadow: 
+                -1px -1px 0 rgb(178, 168, 237),  
+                1px -1px 0 rgb(180, 215, 238),
+                -1px  1px 0 rgb(186, 150, 236),
+                1px  1px 0 rgb(203, 193, 227); 
+
+
+
+}
+footer{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="http://localhost/Just-the-tip/index.html">Home</a></li>
+          
+           
+    
+            
+            
+           
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Tip Calculator</h2>
+        <label for="billAmount">Bill Amount:</label>
+        <input type="number" id="billAmount" placeholder="Enter bill amount">
+        
+        <label for="tipPercentage">Tip Percentage:</label>
+        <select id="tipPercentage">
+            <option value="0.01">I would rather chew on broken glass! (1%)</option>
+            <option value="0.05">I did actually vomit in my mouth a little (5%)</option>
+            <option value="0.1">Did we just become best friends? (10%)</option>
+            <option value="0.15">I wrote a poem for you. (15%)</option>
+            <option value="0.2">I would scream your name at the top of a mountain (20%)</option>
+            <option value="0.25">We should share the last name (25%)</option>
+        </select>
+        
+        <button onclick="calculateTip()">Calculate Tip</button>
+        
+        <div class="result" id="result"></div>
+    </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <footer>
+        <p>&copy; 2024 Morbiu5h3ll All rights reserved.</p>
+    </footer>
+    <script>
+        function calculateTip() {
+            const billAmount = parseFloat(document.getElementById('billAmount').value);
+            const tipPercentage = parseFloat(document.getElementById('tipPercentage').value);
+            const tipAmount = billAmount * tipPercentage;
+            const totalAmount = billAmount + tipAmount;
+            
+            document.getElementById('result').innerHTML = 
+                `Tip Amount: \$${tipAmount.toFixed(2)}<br>Total Amount: \$${totalAmount.toFixed(2)}`;
+        }
+        
+    </script>
+</body>
+</html>
+
+
