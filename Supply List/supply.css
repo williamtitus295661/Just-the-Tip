@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(180, 215, 238);
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color:#ff4c4c;
+    text-shadow: 
+    -1px -1px 0 rgb(10, 9, 9),  
+1px -1px 0 rgb(8, 8, 8),
+-1px  1px 0 rgb(3, 0, 6),
+1px  1px 0 rgb(3, 1, 7); 
+
+}
+
+input, select, button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    background: lightgoldenrodyellow;
+    box-shadow: black;
+    color:red;
+    text-shadow: 
+    -1px -1px 0 rgb(10, 9, 9),  
+1px -1px 0 rgb(255, 251, 251),
+-1px  1px 0 rgb(3, 0, 6),
+1px  1px 0 rgb(246, 244, 250); 
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.task span {
+    flex-grow: 1;
+}
+
+.task button {
+    margin-left: 5px;
+    background: #ff6b6b;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.task button:hover {
+    background: #ff4c4c;
+}
+
+ul, li {
+    text-align: left;
+    color:blue;
+    font: size 20px;
+    
+    
+    text-shadow: 
+    -1px -1px 0 rgb(178, 168, 237),  
+    1px -1px 0 rgb(180, 215, 238),
+    -1px  1px 0 rgb(186, 150, 236),
+    1px  1px 0 rgb(203, 193, 227); 
+    
+    
+    
+    }
+    button{
+        background-color: burlywood;
+        color:blue;
+                    font: size 20px;
+    
+    
+                    text-shadow: 
+                    -1px -1px 0 rgb(178, 168, 237),  
+                    1px -1px 0 rgb(180, 215, 238),
+                    -1px  1px 0 rgb(186, 150, 236),
+                    1px  1px 0 rgb(203, 193, 227); 
+    
+        
+    }
+    option{
+    
+        background-color: burlywood;
+        color:blue;
+                    font: size 20px;
+    
+    
+                    text-shadow: 
+                    -1px -1px 0 rgb(178, 168, 237),  
+                    1px -1px 0 rgb(180, 215, 238),
+                    -1px  1px 0 rgb(186, 150, 236),
+                    1px  1px 0 rgb(203, 193, 227); 
+    
+    
+    }
+    select{
+                    background-color: burlywood;
+                    color:blue;
+                    font: size 20px;
+    
+    
+                    text-shadow: 
+                    -1px -1px 0 rgb(178, 168, 237),  
+                    1px -1px 0 rgb(180, 215, 238),
+                    -1px  1px 0 rgb(186, 150, 236),
+                    1px  1px 0 rgb(203, 193, 227); 
+    }
+    input{
+        background-color: burlywood;
+        color:blue;
+        font: size 20px;
+
+
+        text-shadow: 
+        -1px -1px 0 rgb(178, 168, 237),  
+        1px -1px 0 rgb(180, 215, 238),
+        -1px  1px 0 rgb(186, 150, 236),
+        1px  1px 0 rgb(203, 193, 227); 
+
+
+    }
+    p{
+        color:lightblue;
+      
+       
+     
+      
+        text-shadow: 
+            -1px -1px 0 rgb(15, 0, 0),  
+             1px -1px 0 rgb(13, 13, 12),
+            -1px  1px 0 rgb(20, 1, 1),
+             1px  1px 0 rgb(10, 4, 0);
+       }
+       footer{
+        text-align: center;
+       }
